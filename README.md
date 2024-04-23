@@ -1,10 +1,16 @@
 - 👋 Hi, I’m @greghonoazos
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👀 I’m interested in make code.
+- 🌱 I’m currently learning english.
+- 💞️ I’m looking to collaborate on back end team
+- 📫 How to reach me 
+  - 📱 (19)99250-9913.
+  - 📭 greghono@gmail.com.
+  - 📻 [telegram](https://t.me/greghono).
+  - 🪪 Gregorio Honorato.
+- ⚡ Fun fact:
+  - 🎈 I love opening PR and discussing.
+  - ❗️ Question constructively!!!
+  - 🐦‍🔥 Eternal apprentice.
 
 <!---
 greghonoazos/greghonoazos is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
