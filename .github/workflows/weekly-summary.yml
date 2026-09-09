@@ -1,0 +1,20 @@
+name: Weekly Summary
+
+on:
+  schedule:
+    # Every Friday at 16:00 BRT (UTC-3, no DST in Brazil) = 19:00 UTC
+    - cron: '0 19 * * 5'
+  workflow_dispatch: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Telegram message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d text="Lembrete: hora do resumo semanal. Registre como foi a semana e o que se espera da proxima."
